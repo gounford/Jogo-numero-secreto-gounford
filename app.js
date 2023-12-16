@@ -1,3 +1,9 @@
+//let titulo = document.querySelector('h1');
+//titulo.innerHTML = 'Jogo do Número Secreto';
+
+//let paragrafo = document.querySelector('p');
+//paragrafo.innerHTML = 'Escolha um número entre 1 e 10!';
+
 let listaSorteados = [];
 let numeroLimite = 10;
 let numeroSecreto = gerarNumeroAleatorio();
@@ -73,3 +79,5 @@ function reiniciarJogo() {
     exibirMensagemInicial();
     document.getElementById('reiniciar').setAttribute('disabled', true);
 }
+
+
